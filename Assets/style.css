@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?qcz7ew');
+  src:  url('fonts/icomoon.eot?qcz7ew#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qcz7ew') format('truetype'),
+    url('fonts/icomoon.woff?qcz7ew') format('woff'),
+    url('fonts/icomoon.svg?qcz7ew#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lunch_dining:before {
+  content: "\e900";
+}
+.icon-dinner_dining:before {
+  content: "\e901";
+}
+.icon-local_restaurant:before {
+  content: "\e902";
+}
+.icon-restaurant:before {
+  content: "\e903";
+}
+.icon-amused-face-closed-eyes:before {
+  content: "\e904";
+}
+.icon-close:before {
+  content: "\e905";
+}
+.icon-menu:before {
+  content: "\e906";
+}
+.icon-play:before {
+  content: "\e90e";
+}
+.icon-stopwatch:before {
+  content: "\e90d";
+}
+.icon-spoon-knife:before {
+  content: "\e907";
+}
+.icon-instagram:before {
+  content: "\e908";
+}
+.icon-twitter:before {
+  content: "\e909";
+}
+.icon-fork:before {
+  content: "\e90a";
+}
+.icon-Path:before {
+  content: "\e90b";
+}
+.icon-Vector:before {
+  content: "\e90c";
+}
