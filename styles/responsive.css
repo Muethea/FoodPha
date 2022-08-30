@@ -1,0 +1,771 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*================Base==================*/
+    .container {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .logo img {
+        width: 6rem;
+    }
+    .section {
+        padding: 5rem 0;
+    }
+    .section header {
+        margin-bottom: 2rem;
+    }
+    .grid {
+        display: grid;
+        gap: 2rem;
+    }
+    .menu a {
+        color: #000000;
+    }
+    /*=================Navegation===============*/
+    .socialmedias1 {
+        opacity: 1;
+    }
+    .socialmedias1 a em {
+        display: block;
+        font-size: 1.2rem;
+        color: #000000;
+    }
+    nav ul li {
+        text-align: center;
+    }
+    nav ul li a {
+        transition: color 0.2s;
+        position: relative;
+    }
+    nav ul li a::after {
+        content: '';
+        width: 0;
+        height: 2px;
+        background: rgb(174, 80, 80);
+        left: 0;
+        position: absolute;
+        bottom: -1.5rem;
+        transition: width 0.2s;
+    }
+    nav ul li a:hover::after {
+        width: 100%;
+    }
+    nav ul.grid {
+        gap: 2rem;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav {
+        height: 4.5rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    nav .icon-close {
+        display: none;
+    }
+    nav .icon-menu {
+        display: none;
+    }
+    .grid1 {
+        display: flex;
+    }
+    .menu a {
+        display: block;
+        color: #000000;
+        font: 700 1rem 'Poppins', sans-serif;
+    }
+    /* HOME */
+    #home {
+        height: 70rem;
+        background: #e7f9fd;
+    }
+    .Featured img {
+        margin-top: -4.5rem;
+        width: 100%;
+    }
+    #home header {
+        margin-top: 3.5rem;
+    }
+    #home .title {
+        text-align: center;
+        font: 700 2.4rem 'Poppins', sans-serif;
+    }
+    #home header p {
+        margin-top: 1rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+        font: 400 1.4rem 'Padauk', sans-serif;
+    }
+    .time-eat2 {
+        display: flex;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .time-eat2 button {
+        width: 10.4rem;
+        height: 3.5rem;
+        display: flex;
+        border: none;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .time-eat2 em {
+        font-size: 1.5rem;
+    }
+    .user {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .info-user {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-user p {
+        font: 400 .8rem 'DM Sans', sans-serif;
+    }
+    /* BUTTON VIEW RECIPES */
+    .user-btnview {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 4rem;
+        align-content: center;
+        display: flex;
+        gap: 9rem;
+        justify-content: center;
+    }
+    .user-btnview button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+        width: 10.3rem;
+        height: 3rem;
+        border: none;
+        background: black;
+        color: #ffffff;
+        border-radius: 1rem;
+        font: 400 0.6rem 'DM Sans', sans-serif;
+    }
+    .user-btnview button em {
+        font-size: 1.5rem;
+    }
+    .user-btnview .user-info small {
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    #home .user img {
+        margin-top: .01rem;
+        width: 4rem;
+        clip-path: circle();
+    }
+    /* SWIPER */
+    .swiper {
+        width: 650px;
+        height: 300px;
+    }
+    .swiper .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        height: 15rem;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+        border-radius: 30px;
+    }
+    .swiper-slide img {
+        margin-top: 3rem;
+        width: 8.6rem;
+        height: 8.6rem;
+    }
+    /* SECTION 3 */
+    .chef h1,
+    p {
+        text-align: center;
+    }
+    .chef h1 {
+        font: 700 2rem 'Poppins', sans-serif;
+    }
+    .chef p {
+        margin-top: 1.3rem;
+        color: rgba(0, 0, 0, 0.6);
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    .chef {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .chef button {
+        display: flex;
+        justify-content: center;
+        border: none;
+        width: 10.6rem;
+        height: 3.18rem;
+        border-radius: 1rem;
+        background: #000000;
+    }
+    .chef button p {
+        color: #ffffff;
+    }
+    /* SECTION 2  */
+    .Simple h1,
+    p {
+        text-align: center;
+    }
+    .Simple h1 {
+        font: 700 2rem 'Poppins', sans-serif;
+    }
+    .Simple p {
+        margin-top: 1.3rem;
+        color: rgba(0, 0, 0, 0.6);
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    .cardfood {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        place-items: center;
+    }
+    .cardfood img {
+        width: 19.44rem;
+        border-top-left-radius: 1.9rem;
+        border-top-right-radius: 1.9rem;
+        border-bottom-left-radius: 1.9rem;
+        border-bottom-right-radius: 1.9rem;
+    }
+    .cardfood2 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        place-items: center;
+        gap: 3rem;
+    }
+    .cardfood2 img {
+        width: 19.44rem;
+        border-top-left-radius: 1.9rem;
+        border-top-right-radius: 1.9rem;
+        border-bottom-left-radius: 1.9rem;
+        border-bottom-right-radius: 1.9rem;
+    }
+    .foodCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 27rem;
+        background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+        border-radius: 1.9rem;
+    }
+    /* FOODS VISIBILITY */
+    .foodCard h1 {
+        text-align: center;
+        width: 20rem;
+        font: 700 1.125rem sans-serif;
+    }
+    .food3,
+    .food4,
+    .food5,
+    .food6,
+    .food7,
+    .food8,
+    .food9 {
+        display: none;
+    }
+    /* SECTION 4 */
+    .backSelection {
+        background: #E7F9FD;
+    }
+    .VisitOn h1,
+    p {
+        text-align: center;
+    }
+    .VisitOn h1 {
+        font: 700 2rem 'Poppins', sans-serif;
+    }
+    .VisitOn p {
+        margin-top: 1.3rem;
+        color: rgba(0, 0, 0, 0.6);
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    .VisitOn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .VisitOn button {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: center;
+        border: none;
+        width: 10.6rem;
+        height: 3.18rem;
+        border-radius: 1rem;
+        background: #000000;
+    }
+    .VisitOn button {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+    /* SECTION 5 */
+    .btnviewALL {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem;
+        width: 10.6rem;
+        height: 3.18rem;
+        border: none;
+        background: black;
+        color: #ffffff;
+        border-radius: 1rem;
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    /* SECTION 6 */
+    .s6 {
+        height: 31.125rem;
+        background: #E7F9FD;
+    }
+    .conct-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conct-form input {
+        margin-top: 4rem;
+        width: 28rem;
+        height: 3.75rem;
+        padding-left: 1rem;
+        border: none;
+        border-radius: 1.5rem;
+    }
+    .conct-form img {
+        width: 6rem;
+        height: 6rem;
+        clip-path: circle();
+    }
+    .conct-form .imgtop {
+        position: relative;
+        left: 8rem;
+    }
+    .conct-form .imgbottom {
+        position: relative;
+        top: 7rem;
+        left: -16rem;
+    }
+    .conct-form button {
+        border: none;
+        width: 10.6rem;
+        height: 3.18rem;
+        border-radius: 1rem;
+        background: #000000;
+    }
+    .conct-form button p {
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /*================Base==================*/
+    .container {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    .logo img {
+        width: 7rem;
+    }
+    .section {
+        padding: 5rem 0;
+    }
+    .section header {
+        margin-bottom: 2rem;
+    }
+    .grid {
+        display: grid;
+        gap: 2rem;
+    }
+    .menu a {
+        color: #000000;
+    }
+    /*=================Navegation===============*/
+    .socialmedias1 {
+        opacity: 1;
+    }
+    .socialmedias1 a em {
+        display: block;
+        font-size: 1.5rem;
+        color: #000000;
+    }
+    nav ul li {
+        text-align: center;
+    }
+    nav ul li a {
+        transition: color 0.2s;
+        position: relative;
+    }
+    nav ul li a::after {
+        content: '';
+        width: 0;
+        height: 2px;
+        background: rgb(174, 80, 80);
+        left: 0;
+        position: absolute;
+        bottom: -1.5rem;
+        transition: width 0.2s;
+    }
+    nav ul li a:hover::after {
+        width: 100%;
+    }
+    nav ul.grid {
+        gap: 2rem;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav {
+        height: 4.5rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    nav .icon-close {
+        display: none;
+    }
+    nav .icon-menu {
+        display: none;
+    }
+    .grid1 {
+        display: flex;
+    }
+    .menu a {
+        display: block;
+        color: #000000;
+        font: 700 1.2rem 'Poppins', sans-serif;
+    }
+    /* HOME */
+    #home {
+        height: 45rem;
+        background: #e7f9fd;
+    }
+    .Featured {
+        display: flex;
+    }
+    .Featured img {
+        margin-top: -4.5rem;
+        width: 32.18rem;
+    }
+    #home header {
+        margin-top: 3.5rem;
+    }
+    #home .title {
+        text-align: center;
+        font: 700 2rem 'Poppins', sans-serif;
+    }
+    #home header p {
+        margin-top: 1rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+        font: 400 1.2rem 'Padauk', sans-serif;
+    }
+    .time-eat2 {
+        display: flex;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .time-eat2 button {
+        width: 10.4rem;
+        height: 3.5rem;
+        display: flex;
+        border: none;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .time-eat2 em {
+        font-size: 1.5rem;
+    }
+    .user {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .info-user {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-user p {
+        font: 400 .8rem 'DM Sans', sans-serif;
+    }
+    /* BUTTON VIEW RECIPES */
+    .user-btnview {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 4rem;
+        align-content: center;
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .user-btnview button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+        width: 10.3rem;
+        height: 3rem;
+        border: none;
+        background: black;
+        color: #ffffff;
+        border-radius: 1rem;
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    .user-btnview button em {
+        font-size: 1.5rem;
+    }
+    .user-btnview .user-info small {
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    #home .user img {
+        margin-top: .01rem;
+        width: 4rem;
+        clip-path: circle();
+    }
+    /* SWIPER */
+    .swiper {
+        width: 650px;
+        height: 300px;
+    }
+    .swiper .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        height: 15rem;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+        border-radius: 30px;
+    }
+    .swiper-slide img {
+        margin-top: 3rem;
+        width: 8.6rem;
+        height: 8.6rem;
+    }
+    /* SECTION 3 */
+    .chef h1,
+    p {
+        text-align: center;
+    }
+    .chef h1 {
+        font: 700 2rem 'Poppins', sans-serif;
+    }
+    .chef p {
+        margin-top: 1.3rem;
+        color: rgba(0, 0, 0, 0.6);
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    .chef {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .chef button {
+        display: flex;
+        justify-content: center;
+        border: none;
+        width: 10.6rem;
+        height: 3.18rem;
+        border-radius: 1rem;
+        background: #000000;
+    }
+    .chef button p {
+        color: #ffffff;
+    }
+    /* SECTION 2  */
+    .Simple h1,
+    p {
+        text-align: center;
+    }
+    .Simple h1 {
+        font: 700 2rem 'Poppins', sans-serif;
+    }
+    .Simple p {
+        margin-top: 1.3rem;
+        color: rgba(0, 0, 0, 0.6);
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    .cardfood {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        place-items: center;
+        gap: 1rem;
+    }
+    .cardfood img {
+        width: 19.44rem;
+        border-top-left-radius: 1.9rem;
+        border-top-right-radius: 1.9rem;
+        border-bottom-left-radius: 1.9rem;
+        border-bottom-right-radius: 1.9rem;
+    }
+    .cardfood2 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        place-items: center;
+        gap: 1rem;
+    }
+    .cardfood2 img {
+        width: 19.44rem;
+        border-top-left-radius: 1.9rem;
+        border-top-right-radius: 1.9rem;
+        border-bottom-left-radius: 1.9rem;
+        border-bottom-right-radius: 1.9rem;
+    }
+    .foodCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 27rem;
+        background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+        border-radius: 1.9rem;
+    }
+    /* FOODS VISIBILITY */
+    .foodCard h1 {
+        text-align: center;
+        width: 20rem;
+        font: 700 1.125rem sans-serif;
+    }
+    .food3 {
+        text-align: center;
+        width: 20rem;
+        font: 700 1.125rem sans-serif;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        height: 27rem;
+        background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+        border-radius: 1.9rem;
+    }
+    .food4,
+    .food5,
+    .food6,
+    .food7,
+    .food8,
+    .food9 {
+        display: none;
+    }
+    /* SECTION 4 */
+    .backSelection {
+        background: #E7F9FD;
+    }
+    .VisitOn h1,
+    p {
+        text-align: center;
+    }
+    .VisitOn h1 {
+        font: 700 2rem 'Poppins', sans-serif;
+    }
+    .VisitOn p {
+        margin-top: 1.3rem;
+        color: rgba(0, 0, 0, 0.6);
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    .VisitOn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .VisitOn button {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: center;
+        border: none;
+        width: 10.6rem;
+        height: 3.18rem;
+        border-radius: 1rem;
+        background: #000000;
+    }
+    .VisitOn button {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+    /* SECTION 5 */
+    .btnviewALL {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem;
+        width: 10.6rem;
+        height: 3.18rem;
+        border: none;
+        background: black;
+        color: #ffffff;
+        border-radius: 1rem;
+        font: 400 1rem 'DM Sans', sans-serif;
+    }
+    /* SECTION 6 */
+    .s6 {
+        height: 31.125rem;
+        background: #E7F9FD;
+    }
+    .conct-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conct-form input {
+        margin-top: 4rem;
+        width: 28rem;
+        height: 3.75rem;
+        padding-left: 1rem;
+        border: none;
+        border-radius: 1.5rem;
+    }
+    .conct-form img {
+        width: 6rem;
+        height: 6rem;
+        clip-path: circle();
+    }
+    .conct-form .imgtop {
+        position: relative;
+        left: 8rem;
+    }
+    .conct-form .imgbottom {
+        position: relative;
+        top: 7rem;
+        left: -16rem;
+    }
+    .conct-form button {
+        border: none;
+        width: 10.6rem;
+        height: 3.18rem;
+        border-radius: 1rem;
+        background: #000000;
+    }
+    .conct-form button p {
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1920px) {}
